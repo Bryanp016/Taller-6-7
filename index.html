@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Taller 6 - Formulario</title>
+</head>
+<body>
+    
+        <h1>FORMULARIO DE INGRESO DE DATOS DE CLIENTES</h1>
+
+<div class="formulario">
+    <form>
+       
+        CI: <input type="number" class="ingresar" id="cedula" name="ci" maxlength="10" value=""  autofocus><br>
+
+       
+        Apellidos: <input type="text" class="ingresar" id="apellidos" name="apellido" maxlength="50" value="" ><br>
+
+        
+        Nombres: <input type="text" class="ingresar" id="nombres" name="nombre" maxlength="50" value="" ><br>
+
+       
+        <div>
+           Estado Civil:<br>
+            <input type="radio" class="eleccion" name="estadocivil" value="" checked> Soltero(a) <br>
+            <input type="radio" class="eleccion" name="estadocivil" value="" > Casado(a) <br>
+            <input type="radio" class="eleccion" name="estadocivil" value="" > Divorciado(a) <br>
+            <input type="radio" class="eleccion" name="estadocivil" value="" > viudo(a) <br>
+            <input type="radio" class="eleccion" name="estadocivil" value="" > Union Libre <br>
+       </div>
+
+       <div>
+            Sexo:<br>
+            <input type="radio"class="eleccion" name="sexo" value="" checked> Masculino <br>
+            <input type="radio" class="eleccion" name="sexo" value="" > Femenino <br>
+        </div><br>
+
+        Ciudad:
+        <select name="ciudad">
+            <option value="" selected>Manta</option>
+            <option value="">Montecristi</option>
+            <option value="">Crucita</option>
+            <option value="">San Mateo</option>
+            <option value="">Otra...</option>
+        </select><br><br>
+
+        Dirección:<br>
+        <textarea id="direcciones" class="eleccion" name="areatexto" rows="5" cols="60"></textarea><br>
+
+        Teléfono: 
+        <input type="number" class="ingresar" id="telefonos" name="telefono" maxlength="10" value=""><br>
+
+        Correo Electrónico: 
+        <input type="email" class="ingresar" id="correo" name="email"  value=""><br>
+
+            <input type="submit" class="clic" value="Enviar" onclick=validar()>
+            <input type="reset" class="clic" value="Borrar">
+    </form>
+</div>
+   
+<script type="text/javascript" src="code.js"></script> 
+</body>
+</html>

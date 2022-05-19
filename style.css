@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #9a62e4;; 
+}
+
+h1{
+    
+    text-align: center;
+    background-color: rgb(109, 181, 237);
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 15px;
+    
+}
+
+.formulario{
+    display: table;
+    background-color: rgb(58, 187, 227);
+    padding: 8%;
+    border-radius: 18px;
+    margin:auto;
+}
+
+.ingresar{
+    display: block;
+    margin-top: 18px;
+    width: 95%;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.eleccion{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.clic{
+    display: block;
+    margin: auto;
+    background-color: #0a2c37;
+    border: none;
+    color: rgb(162, 84, 84);
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 30px;    
+}
+
+
